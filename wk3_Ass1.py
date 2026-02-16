@@ -1,3 +1,4 @@
+#Define properties
 class Task:
     def __init__(self, name, details, status):
         self.name = name
