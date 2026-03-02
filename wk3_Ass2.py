@@ -3,7 +3,7 @@ class Category:
         self.name = name
         self.budget = budget
         self.spent = 0
-
+#BudgetApp, Need to be able to create a budget, track expenses, see if you spent more or less,
 class FinanceApp:
     def __init__(self):
         self.categories = {}

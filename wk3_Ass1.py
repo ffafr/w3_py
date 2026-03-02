@@ -7,7 +7,6 @@ class Task:
 
     def __str__(self):
         return f"{self.name} | {self.details} | Status: {self.status}"
-
 class TodoManager:
     def __init__(self):
         self.tasks = []
